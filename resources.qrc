@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/Three_D_Change_Detection" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
