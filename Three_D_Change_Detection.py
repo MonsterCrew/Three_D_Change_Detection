@@ -737,7 +737,6 @@ class ThreeDChangeDetection:
         self.loadRasters()
         self.loadRasters2()
         self.loadVectors()
-        errorMap = self.dlg.error_enable.isChecked()
         # show the dialog
         # Run the dialog event loop
         result = self.dlg.exec_()
@@ -748,14 +747,9 @@ class ThreeDChangeDetection:
             self.setVariable()
             self.rasterCalculation(self.clip_oldDEM(), self.clip_newDEM())
             self.hillshade_newdem(self.clip_newDEM())
-            if errorMap:
-            	self.old_error_color(self.clip_old_error(self.old_error(self.Error_map_old())))
-            	self.new_error_color(self.clip_new_error(self.new_error(self.Error_map_new())))
             self.addLayers()
             self.colorRamp()
-
-
-
-            #self.total_error(self.old_error, self.new_error)
-
-
+            errorMap = self.dlg.error_enable.isChecked()
+              if errorMap:
+            	self.old_error_color(self.clip_old_error(self.old_error(self.Error_map_old())))
+            	self.new_error_color(self.clip_new_error(self.new_error(self.Error_map_new())))
