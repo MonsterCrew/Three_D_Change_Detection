@@ -1,10 +1,4 @@
-# This file contains metadata for your plugin. Since 
-# version 2.0 of QGIS this is the proper way to supply 
-# information about a plugin. The old method of 
-# embedding metadata in __init__.py will 
-# is no longer supported since version 2.0.
-
-# This file should be included when you package your plugin.# Mandatory items:
+# This file contains metadata for the plugin.
 
 [general]
 name=Three-D Change Detection
@@ -14,21 +8,21 @@ version=0.1
 author=Jordan Bates, Muhammad Hasan Mustafa, Tanmoy Chakraborty
 email=m20180811@novaims.unl.pt , m20180796@novaims.unl.pt , m20180804@novaims.unl.pt
 
-about=This plugin focuses on helping simplify and automate the change detection between temporally different DEMs (rasters) of the same location. While any raster can be used, its development is focused on use with detailed digital surface models (DSM) collected with unmanned aircraft, associated type of errors, and 3D visualization.
+about=This plugin focuses on helping simplify and automate the change detection between temporally different DEMs (rasters) of the same location. While any raster can be used, its development is focused on the use of detailed digital surface models (DSM) collected with unmanned aircraft, the associated type of errors, and 3D visualization.
 
-tracker=https://github.com/jsbates/3DChangeDetection_QGIS_Plugin
-repository=https://github.com/jsbates/3DChangeDetection_QGIS_Plugin
+tracker=https://github.com/MonsterCrew/Three_D_Change_Detection
+repository=https://github.com/MonsterCrew/Three_D_Change_Detection
+
 # End of mandatory metadata
 
 # Recommended items:
 
-# Uncomment the following line and add your changelog:
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python, DEM, Change Detection, Temporal Analysis
 
-homepage=https://github.com/jsbates/3DChangeDetection_QGIS_Plugin
+homepage=https: https://github.com/MonsterCrew/Three_D_Change_Detection
 category=Plugins
 icon=icon.png
 # experimental flag
