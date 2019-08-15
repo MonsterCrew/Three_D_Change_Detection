@@ -22,7 +22,7 @@ repository=https://github.com/MonsterCrew/Three_D_Change_Detection
 # Tags are comma separated with spaces allowed
 tags=python, DEM, Change Detection, Temporal Analysis
 
-homepage=https: https://github.com/MonsterCrew/Three_D_Change_Detection
+homepage=https://github.com/MonsterCrew/Three_D_Change_Detection/wiki
 category=Plugins
 icon=icon.png
 # experimental flag
