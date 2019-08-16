@@ -1,2 +1,2 @@
 # 3DChangeDetection
-A QGIS-3 plugin for 3D change detection in rasters. See Wiki for more information.
+A QGIS-3 plugin for 3D change detection in raster DEMs that focuses on the use of Digital Surface Models (DSM) and Digitial Terrain Models (DTM) created from high-resolution data such as from Unmanned Aircraft Systems (UAS). For more information on how to use the plugin, the use cases, and test data, please see the wiki page. https://github.com/MonsterCrew/Three_D_Change_Detection/wiki
