@@ -10,7 +10,7 @@ email=m20180811@novaims.unl.pt , m20180796@novaims.unl.pt , m20180804@novaims.un
 
 about=This plugin focuses on helping simplify and automate the change detection between temporally different DEMs (rasters) of the same location. While any raster can be used, its development is focused on the use of detailed digital surface models (DSM) collected with unmanned aircraft, the associated type of errors, and 3D visualization.
 
-tracker=https://github.com/MonsterCrew/Three_D_Change_Detection
+tracker=https://github.com/MonsterCrew/Three_D_Change_Detection/issues
 repository=https://github.com/MonsterCrew/Three_D_Change_Detection
 
 # End of mandatory metadata
